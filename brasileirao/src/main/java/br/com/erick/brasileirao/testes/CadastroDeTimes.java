@@ -41,10 +41,10 @@ public class CadastroDeTimes {
     //    Clube clubeADeletar = dao.buscarPorId(23);
       //  dao.excluir(clubeADeletar);
 
-        em.getTransaction().begin();
-        System.out.println(dao.buscarTodos());
-        em.getTransaction().commit();
-        em.close();
+//        em.getTransaction().begin();
+//        System.out.println(dao.buscarTodos());
+//        em.getTransaction().commit();
+//        em.close();
     }
 
 }
