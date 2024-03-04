@@ -25,6 +25,21 @@ public class Clube {
         this.dataFundacao = dataFundacao;
     }
 
+    @Override
+    public String toString() {
+        return "Clube{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", cidade='" + cidade + '\'' +
+                ", estado='" + estado + '\'' +
+                ", dataFundacao=" + dataFundacao +
+                '}';
+    }
+
+    public Long getId() {
+        return id;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -56,4 +71,5 @@ public class Clube {
     public void setDataFundacao(LocalDate dataFundacao) {
         this.dataFundacao = dataFundacao;
     }
+
 }
