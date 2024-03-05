@@ -20,5 +20,6 @@ public class CadastroDePlacares {
         em.getTransaction().commit();
         em.close();
 
+
     }
 }
