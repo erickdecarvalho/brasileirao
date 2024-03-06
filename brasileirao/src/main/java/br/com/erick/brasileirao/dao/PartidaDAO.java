@@ -1,16 +1,15 @@
 package br.com.erick.brasileirao.dao;
 
-import br.com.erick.brasileirao.modelo.Jogador;
 import br.com.erick.brasileirao.modelo.Partida;
 
 import javax.persistence.EntityManager;
 import java.util.List;
 
-public class PartidasDAO {
+public class PartidaDAO {
 
     private EntityManager em;
 
-    public PartidasDAO(EntityManager em) {
+    public PartidaDAO(EntityManager em) {
         this.em = em;
     }
 
